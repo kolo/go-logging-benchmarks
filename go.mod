@@ -1,11 +1,12 @@
 module github.com/betterstack-community/go-logging-benchmarks
 
-go 1.21
+go 1.23.3
 
 require (
 	github.com/apex/log v1.9.0
 	github.com/inconshreveable/log15 v2.16.0+incompatible
 	github.com/phuslu/log v1.0.99
+	github.com/remerge/cue v0.0.0-20241201183147-7e2f8545401d
 	github.com/rs/zerolog v1.30.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/zerodha/logf v0.5.5
